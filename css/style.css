@@ -1,0 +1,216 @@
+body{
+    background:#f4f4f4;
+
+}
+
+.white-text{
+    color: #ffffff !important;
+
+}
+.grey-text{
+    color: #F4F6F6 !important;
+
+}
+
+.navbar{
+    min-height:33px !important;
+    margin-bottom:0;
+    border-radius:0;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+    padding-top:6px !important;
+    padding-bottom:0 !important;
+    height:33px;
+
+
+}
+
+
+.navbar-default {
+    background-color: #b30018;
+    border-color: #ec1d39;
+}
+.navbar-default .navbar-brand {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ecdbff;
+}
+.navbar-default .navbar-text {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ecdbff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+    background-color: #b30018;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+    background-color: #ec1d39;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+    background-color: #ec1d39;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #ec1d39;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ecdbff;
+    background-color: #ec1d39;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ecdbff;
+    background-color: #ec1d39;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ec1d39;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ec1d39;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+    color: #ecdbff;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ecf0f1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ecdbff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ecdbff;
+        background-color: #ec1d39;
+    }
+}
+
+.main-color-bg{
+
+    background-color: #b30018 !important;
+    border-color: #ec1d39 !important;
+    color: #ffffff;
+
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #f2fffe;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #edeef4;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #edeef4;
+        background-color: #21b793;
+    }
+}
+
+#login .well{
+    background: white;
+}
+
+
+a{
+    cursor: hand;
+}
+
+td { cursor: pointer; cursor: hand; }
+
+
+#tableinfo {
+    border: 1px solid black !important;
+    margin-top: 20px !important;
+    background-color: #ffffff;
+}
+
+#tableinfo2{
+    border: 1px solid black !important;
+    margin-top: 20px !important;
+    background-color: #ffffff;
+}
+
+#dataTable{
+    border: 1px solid black !important;
+    margin-top: 20px !important;
+    background-color: #ffffff;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid #000000;
+}
+
+.table-s {
+    margin-top: 20px;
+    border: transparent !important;
+}
+
+
+
+
+.containerforsign .signature canvas {
+    border: 1px solid #999;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: white;
+}
+
+.containerforsign .sizes input {
+    width: 4em;
+    text-align: center;
+}
+
+.result {
+    border: 1px solid blue;
+    margin: 30px auto 0 auto;
+    height: 220px;
+    width: 300px;
+}
+
+.containerforsign .buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
